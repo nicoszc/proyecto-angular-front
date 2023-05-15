@@ -1,0 +1,26 @@
+:host {
+    display: block;
+    padding: 3rem 2rem;
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+
+
+.title {
+   
+    text-align: center;
+    color: #229DCC; /* Cambia el color del título a rgb(123, 182, 212) */
+}
+
+table {
+    margin-top: 2rem;
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+section h2 {
+    color: var(--green);
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}

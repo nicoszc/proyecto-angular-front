@@ -1,0 +1,26 @@
+<div class="component-background">
+  <div class="container-fluid d-flex justify-content-center align-items-center backgroundContainer">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="input-box text-center">
+          <header>verificar usuario</header>
+          
+          <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+            <div class="input-field">
+              <input type="text" class="fadeIn second" id="login" required autocomplete="off" placeholder="login" formControlName="usuario">
+              
+            </div>
+            <div class="input-field">
+              <input type="password" class="fadeIn third" id="password" required autocomplete="off"formControlName="password">
+              
+            </div>
+            
+            <div>
+              <button type="submit" class="btn btn-primary" (click)="redirectToPrincipal()">entrar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

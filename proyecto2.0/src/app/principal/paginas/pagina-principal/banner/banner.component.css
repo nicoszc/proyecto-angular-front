@@ -1,0 +1,83 @@
+:host {
+    display: block;
+    background-image: url("./oficina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inicio .contenido-banner .contenedor-img {
+    background-image: url("./nico-imagen.jpg");
+    border-radius: 10%;
+    background-size: cover;
+    background-position: center;
+    height: 350px; /* Ajusta la altura según tus necesidades */
+}
+.inicio {
+    background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgba(30, 35, 38, 1));
+    
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .contenido-banner {
+    padding: 20px;
+    
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.inicio .contenido-banner img {
+    margin-top: 40px;
+    
+    border: 10px solid rgb(123, 182, 212);
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 50%; /* Cambiado a 50% para hacer la imagen redonda */
+}
+
+.inicio .contenido-banner h1 {
+    margin-top: 40px;
+    border-radius: 10%;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+
+.inicio .contenido-banner h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.inicio .contenido-banner .redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio .contenido-banner .redes a {
+    color: #fff;
+    display: flex; /* Añade display flex */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+    text-align: center;
+}
+
+
+
+.inicio .contenido-banner .redes a:hover {
+    background-color: rgb(123, 182, 212);
+}

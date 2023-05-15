@@ -1,0 +1,12 @@
+<div class="container">
+    <h1 class="title">
+        <span class="highlighted-text">inofrmacion</span> personal
+    </h1>
+    <section *ngFor="let exp of aboutList">
+        <h2>{{exp.Nombre}}</h2>
+        <h3>{{exp.Edad}}</h3>
+        <h4>{{exp.Nacionalidad}}</h4>
+        <h5>{{exp.Intereses}}</h5>
+        <p>{{exp.Descripcion}}</p>
+      </section>
+</div>

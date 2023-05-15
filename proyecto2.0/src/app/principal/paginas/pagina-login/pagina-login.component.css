@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+  min-height: 100vh;
+}
+
+.component-background {
+  background-image: url('./oficina.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-box {
+  width: 330px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.input-box header {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.input-field {
+  position: relative;
+  padding: 0 10px 0 10px;
+}
+
+.input-field input[type="password"],
+.input-field input[type="text"] {
+  height: 45px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.btn-primary {
+  margin-top: 20px;
+}
+
+  
